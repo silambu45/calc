@@ -1,0 +1,4 @@
+1. mvn clean install
+2. docker build -t calc-app .
+3. docker run -d -p 1322:1322 calc-app
+4. now automate the process in jenkins 
